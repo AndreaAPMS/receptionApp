@@ -1,0 +1,59 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Environment variables
+.env
+.env.test
+.env.production
+.env.local
+
+# Build outputs
+dist/
+build/
+tmp/
+temp/
+out/
+
+# Logs
+logs/
+*.log
+*.log.*
+debug.log
+coverage/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# TypeScript build output
+*.tsbuildinfo
+
+# Optional cache folders
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+out/
+.svelte-kit/
+.vercel/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+*.swp
+*.bak
+*.orig
